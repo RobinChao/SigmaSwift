@@ -1,11 +1,9 @@
 # σ (sigma) - statistics library written in Swift
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)][carthage]
-[![CocoaPods Version](https://img.shields.io/cocoapods/v/SigmaSwiftStatistics.svg?style=flat)][cocoadocs]
-[![License](https://img.shields.io/cocoapods/l/SigmaSwiftStatistics.svg?style=flat)][cocoadocs]
-[![Platform](https://img.shields.io/cocoapods/p/SigmaSwiftStatistics.svg?style=flat)][cocoadocs]
-[cocoadocs]: http://cocoadocs.org/docsets/SigmaSwiftStatistics
-[carthage]: https://github.com/Carthage/Carthage
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/SigmaSwiftStatistics.svg?style=flat)](http://cocoadocs.org/docsets/SigmaSwiftStatistics)
+[![License](https://img.shields.io/cocoapods/l/SigmaSwiftStatistics.svg?style=flat)](http://cocoadocs.org/docsets/SigmaSwiftStatistics)
+[![Platform](https://img.shields.io/cocoapods/p/SigmaSwiftStatistics.svg?style=flat)](http://cocoadocs.org/docsets/SigmaSwiftStatistics)
 
 This library is a collection of functions that perform statistical calculations in Swift. It can be used in Swift apps for Apple devices and in open source Swift programs on other platforms.
 
@@ -41,7 +39,7 @@ This library is a collection of functions that perform statistical calculations 
 
 <img src='https://raw.githubusercontent.com/evgenyneu/SwiftStatistics/master/Graphics/logo.png' width='256' alt='Statistical library for Swift'>
 
-## Setup (Swift 3.0)
+## Setup
 
 There are four ways you can add Sigma to your project.
 
@@ -51,7 +49,7 @@ Simply add [SigmaDistrib.swift](https://github.com/evgenyneu/SigmaSwiftStatistic
 
 #### Setup with Carthage (iOS 8+)
 
-Alternatively, add `github "evgenyneu/SigmaSwiftStatistics" ~> 5.0` to your Cartfile and run `carthage update`.
+Alternatively, add `github "evgenyneu/SigmaSwiftStatistics" ~> 7.0` to your Cartfile and run `carthage update`.
 
 #### Setup with CocoaPods (iOS 8+)
 
@@ -59,7 +57,7 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
     use_frameworks!
     target 'Your target name'
-    pod 'SigmaSwiftStatistics', '~> 5.0'
+    pod 'SigmaSwiftStatistics', '~> 7.0'
 
 
 #### Setup with Swift Package Manager
@@ -74,10 +72,11 @@ let package = Package(
     targets: [],
     dependencies: [
         .Package(url: "https://github.com/evgenyneu/SigmaSwiftStatistics.git",
-                 versions: Version(5,0,0)..<Version(6,0,0))
+                 versions: Version(7,0,0)..<Version(8,0,0))
     ]
 )
 ```
+
 
 
 ### Legacy Swift versions
